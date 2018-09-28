@@ -64,6 +64,7 @@
 
 ::-webkit-scrollbar {
     width: .5rem;
+    height: .5rem;
 }
 ::-webkit-scrollbar-track {
     @apply .bg-white;

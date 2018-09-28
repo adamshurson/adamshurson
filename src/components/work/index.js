@@ -79,7 +79,7 @@ class Work extends React.Component {
         this.setState({active: index});
     }
     render() {
-        return <div className="flex flex-col min-h-screen pt-8">
+        return <div ref={this.props.work} className="flex flex-col min-h-screen pt-8">
             <h2 className="font-accent text-black hover:text-red self-center">Work</h2>
             <div className="relative flex-1 flex items-center">
                 {

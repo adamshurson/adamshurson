@@ -6384,6 +6384,7 @@ table {
 
 ::-webkit-scrollbar {
   width: .5rem;
+  height: .5rem;
 }
 
 ::-webkit-scrollbar-track {

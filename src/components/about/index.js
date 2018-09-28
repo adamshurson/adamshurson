@@ -1,11 +1,15 @@
 import React from 'react';
 import profile from './profile.jpg';
-import retro from './retro.svg';
+import retro from '../../retro.svg';
 import './about.css';
 
 class About extends React.Component {
+    constructor(props) {
+        super(props);
+        this.props = props;
+    }
     render() {
-        return <div className="flex flex-col min-h-screen pt-8">
+        return <div ref={this.props.about} className="flex flex-col min-h-screen pt-8">
             <h2 className="font-accent text-black hover:text-red">About Me</h2>
             <p className="mt-auto md:mt-0 pt-4 text-black font-small leading-loose w-full md:w-2/3 lg:w-1/2">
                 <img className="hover:colored-image float-left w-1/4 mt-2 mr-4 border-2 border-black h-auto" src={profile} alt="Profile"/>
