@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee|Bungee+Shade|Open+Sans');
+body {
+    font-family: 'Bungee', cursive;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+* {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+img, svg, a {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+}
+*[class^='hover'], *[class*=' hover'] {
+    transition: 0.15s all ease;
+}
+.font-accent {
+    font-family: 'Bungee Shade', cursive;
+}
+.font-small {
+    font-family: 'Open Sans', sans-serif;
+}

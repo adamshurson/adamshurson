@@ -1,0 +1,27 @@
+.w-80 {
+    width: 80%;
+}
+.card.left, .card.right {
+    z-index: 10;
+    cursor: pointer;
+    transition: 0.5s all ease-in-out, 0.5s z-index ease-in-out;
+}
+.card.focused {
+    z-index: 20;
+}
+.card {
+    transition: 0.5s all ease-in-out, 0s z-index ease-in-out;
+    transform: translateX(10%);
+}
+.card.left {
+    transform: translateX(0%);
+}
+.card.left:hover {
+    transform: scale(1.1) translateX(1%);
+}
+.card.right:hover {
+    transform: scale(1.1) translateX(19%);
+}
+.card.right {
+    transform: translateX(20%);
+}

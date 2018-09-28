@@ -1,0 +1,17 @@
+.blip {
+    animation: 0.75s blip infinite ease;
+}
+.bounce {
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    -o-animation-delay: 1s;
+    animation-delay: 1s;
+}
+@keyframes blip {
+    from, to {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
