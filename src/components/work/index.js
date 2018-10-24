@@ -84,7 +84,7 @@ class Work extends React.Component {
             <div className="relative flex-1 flex items-center">
                 {
                     this.descriptions.map((description, index) => {
-                        return <div onClick={() => this.setIndex(index)} key={index} className={(this.state.active === index ? "focused overflow-y-auto h-1/2 lg:h-2/3" : "overflow-y-hidden h-1/3 lg:h-1/2")
+                        return <div onClick={() => this.setIndex(index)} key={index} className={(this.state.active === index ? "focused overflow-y-hidden" : "overflow-y-hidden")
                         + (index === this.state.active - 1 || index === this.descriptions.length - 1 && this.state.active === 0 ? " left"
                         : "")
                         + (index === this.state.active + 1 || index === 0 && this.state.active === this.descriptions.length - 1 ? " right"

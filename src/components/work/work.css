@@ -8,20 +8,22 @@
 }
 .card.focused {
     z-index: 20;
+    height: 90%;
 }
 .card {
     transition: 0.5s all ease-in-out, 0s z-index ease-in-out;
-    transform: translateX(10%);
+    transform: translateX(12%);
+    height: 75%;
 }
 .card.left {
     transform: translateX(0%);
 }
 .card.left:hover {
-    transform: scale(1.1) translateX(1%);
+    transform: scale(1.1) translateX(2%);
 }
 .card.right:hover {
-    transform: scale(1.1) translateX(19%);
+    transform: scale(1.1) translateX(20%);
 }
 .card.right {
-    transform: translateX(20%);
+    transform: translateX(24%);
 }
