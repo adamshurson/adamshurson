@@ -11,7 +11,7 @@ class Hero extends React.Component {
         this.introductions = [
             "build for the web",
             "run some miles occasionally",
-            "drink all the beers"
+            "like long walks on the beach"
         ];
     }
     componentDidMount() {
